@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>霧峰北溝故宮</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+    }
+
+    .cover {
+      background-image: url('圖片/文物展示.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      padding: 0 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cover::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .cover-content {
+      z-index: 1;
+      text-align: center;
+    }
+
+    .cover h1 {
+      font-size: 72px;
+      margin-bottom: 20px;
+      color: saddlebrown;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+
+    .cover p {
+      font-size: 24px;
+      margin-bottom: 40px;
+      color: darkgoldenrod;
+      line-height: 1.5;
+    }
+
+    .cover a {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: darkorange;
+      color: white;
+      text-decoration: none;
+      font-size: 24px;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .cover a:hover {
+      background-color: saddlebrown;
+    }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <div class="cover-content">
+      <h1>歡迎來到霧峰北溝故宮！</h1>
+      <p><a href="故宮文化園區.html">一起探討故宮歷史吧，按此進入</a></p>
+    </div>
+  </div>
+</body>
+</html>
