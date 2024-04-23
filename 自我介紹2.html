@@ -5,103 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>自我介紹</title>
     <style>
-        /* Resetting default margin and padding */
-        body, h1, h2, p {
-            margin: 0;
-            padding: 0;
-        }
-        
-        /* Global styles */
-        body {
-            font-family: Arial, sans-serif; /* Use Arial font as a fallback */
-            background-color: #f8f8f8; /* Light gray background */
-            color: #333; /* Dark gray text color */
-            line-height: 1.6; /* Improved readability */
-        }
-
-        /* Header styles */
-        header {
-            background-color: #007bff; /* Blue header background */
-            color: #fff; /* White text color */
-            padding: 20px;
+        body{
             text-align: center;
         }
-
-        /* Navigation styles */
-        nav {
-            background-color: #333; /* Dark background color */
-            padding: 10px 0;
-            text-align: center;
+        .簡介{
+            background-color: antiquewhite;
+            color: black;
         }
+        .LikeAnime{
 
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
         }
-
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff; /* White text color */
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        /* Main content styles */
-        main {
-            padding: 20px;
-        }
-
-        section {
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            color: #007bff; /* Blue heading color */
-            margin-bottom: 10px;
-        }
-
-        p {
-            margin-bottom: 10px;
+        pre{
+            font-family: 標楷體;
+            text-align: left;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>10914200的自我介紹</h1>
+        <h1 style="text-align: left;">10914200的自我介紹</h1>
+        <nav style="text-align: center;">
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="display: inline-block; margin-right: 20px;"><a href="#about">關於我</a></li>
+                <li style="display: inline-block; margin-right: 20px;"><a href="#LikeAnime">喜歡的動漫</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">關於我</a></li>
-            <!-- Add more navigation items if needed -->
-        </ul>
-    </nav>
-
+    
     <main>
-        <section id="about"> <!-- Add an ID for navigation linking -->
+        <section class="about">
             <h2>關於我</h2>
             <p>
-                我是10914200吳丞浩<br>
+                我是<b>10914200吳丞浩</b><br>
                 住在台中市<br>
-                目前就讀朝陽科技大學資管4B<br>
-                我喜歡在上課上班之餘出去旅遊<br>
-                不論是騎車、大眾運輸、開車等等<br>
-                不限制交通工具<br>
-                只要是有趣的地方我都會想要去見見世面<br>
-                當然唯一的限制就是錢啊= =<br>
+                目前就讀<u><b>朝陽科技大學資管4B</b></u><br>
+                我喜歡在上課上班之餘看一些動漫<br>
+                所以這一次的期中報告主題我會以動漫相關來製作<br>
             </p>
+            <div class="LikeAnime">
+                <h2>動漫</h2>
+                <p>
+                    我在最一開始看的動漫是一部叫做<a href="https://zh.wikipedia.org/zh-tw/%E7%AC%A8%E8%9B%8B%EF%BC%8C%E6%B8%AC%E9%A9%97%EF%BC%8C%E5%8F%AC%E5%96%9A%E7%8D%B8">「笨蛋 ● 測驗 ● 召喚獸」</a><br>
+                    <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/6/6f/BakatoTesttoShokanju_vol01_Cover.jpg/200px-BakatoTesttoShokanju_vol01_Cover.jpg" alt="">
+                    作者：<u><b>井上堅二</b></u><br>
+                    出版期間為：2007年1月29日~2013年11月30日<br>
+                    這部動漫類型以<mark style="background-color: bisque;"><b>校園</b>、<b>愛情喜劇</b>、<b>奇幻</b></mark>為主軸<br>
+                    以下是這部動漫的簡介：
+                        <div class="簡介">
+                            <pre style="font-size: larger;" >
+                            文月學園採用根據科學、偶然性和神祕學所開發的「測驗召喚系統」，
+                            讓感嘆學歷低落的學生之間掀起了一股新的風潮。
+                            在這所依照分班考試成績嚴格實行分班的學園裡，
+                            男主角吉井明久自信滿滿地等待著測驗結果，
+                            結果卻被分到最差的班級F班！同時，
+                            考試坐在明久身邊的姬路瑞希因病發作，
+                            優異的成績作廢，
+                            同樣被分到F班。
+                            明久為了改善瑞希的學習環境，
+                            只能盡用班級之間的測驗召喚戰爭提升設備。
+    
+                            文月學園的召喚戰爭規則
+                            原則上對戰以班級為單位。在各科指導老師的監督下，
+                            可發動測驗召喚系統進行召喚。
+                            另外，綜合科目之勝負只有教務主任在場方可進行。
+                            每人僅能擁有一隻召喚獸。此召喚獸擁有與該科最近一次考試分數相對的力量。
+                            至於綜合科目，則是各科目最新分數的總合。
+                            召喚獸失去的力量依比例扣除該科分數，一旦減至零分即宣告戰死，
+                            必須至補習室接受講習。
+                            召喚獸只要沒有戰死，可以無限次接受考試補充分數。
+                            在對手召喚出召喚獸的情況下，如不進行召喚行為即視為放棄戰鬥，
+                            必須與戰死者一同至補習室接受講習到戰爭結束為止。
+                            進行召喚的可能範圍為指導老師的半徑十公尺左右（每人程度各有不同）。
+                            戰鬥只能經由召喚獸進行，如果召喚者本身參與戰鬥將會受到違規處分。
+                            戰爭的勝敗僅能以班長的敗亡與否來決定。關於這場勝負，只要有教師在場認證，
+                            過程及手段一概不論。這是以考試分數為武器的「戰爭」，
+                            與戰者必須做好心理準備。                
+                            </pre>
+                        </div>
+                </p>
+    
+            </div>
         </section>
-        
-        <!-- Add more sections for additional content -->
     </main>
 </body>
 </html>
